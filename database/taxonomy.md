@@ -4,23 +4,24 @@ Taxonomic information is stored in a few different tables in Symbiota. In the **
 
 ## Occurrence table
 
-| column_type      | dwc_definition                                                                       | symbiota_def                                 |
-| ---------------- | ------------------------------------------------------------------------------------ | -------------------------------------------- |
-| varchar(255)     | [family](https://dwc.tdwg.org/terms/#dwc:family)                                     |                                              |
-| varchar(255)     | [scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName)                     |                                              |
-| varchar(255)     | [sciname]()                                                                          | full scientific name, with or without author |
-| int(10) unsigned | [tidinterpreted]()                                                                   | internal id for accepted taxon               |
-| varchar(255)     | [genus](https://dwc.tdwg.org/terms/#dwc:genus)                                       |                                              |
-| varchar(255)     | [specificEpithet](https://dwc.tdwg.org/terms/#dwc:specificEpithet)                   |                                              |
-| varchar(32)      | [taxonRank](https://dwc.tdwg.org/terms/#dwc:taxonRank)                               |                                              |
-| varchar(255)     | [infraspecificEpithet](https://dwc.tdwg.org/terms/#dwc:infraspecificEpithet)         |                                              |
-| varchar(255)     | [scientificNameAuthorship](https://dwc.tdwg.org/terms/#dwc:scientificNameAuthorship) |                                              |
-| text             | [taxonRemarks](https://dwc.tdwg.org/terms/#dwc:taxonRemarks)                         |                                              |
-| varchar(255)     | [identifiedBy](https://dwc.tdwg.org/terms/#dwc:identifiedBy)                         |                                              |
-| varchar(45)      | [dateIdentified](https://dwc.tdwg.org/terms/#dwc:dateIdentified)                     |                                              |
-| text             | [identificationReferences](https://dwc.tdwg.org/terms/#dwc:identificationReferences) |                                              |
-| text             | [identificationRemarks](https://dwc.tdwg.org/terms/#dwc:identificationRemarks)       |                                              |
-| varchar(255)     | [identificationQualifier](https://dwc.tdwg.org/terms/#dwc:identificationQualifier)   |                                              |
+| column_name              | column_type      | dwc_definition                                                                       | symbiota_def                                 |
+| ------------------------ | ---------------- | ------------------------------------------------------------------------------------ | -------------------------------------------- |
+| family                   | varchar(255)     | [family](https://dwc.tdwg.org/terms/#dwc:family)                                     |                                              |
+| scientificName           | varchar(255)     | [scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName)                     |                                              |
+| sciname                  | varchar(255)     | [sciname]()                                                                          | full scientific name, with or without author |
+| tidinterpreted           | int(10) unsigned | [tidinterpreted]()                                                                   | internal id for accepted taxon               |
+| genus                    | varchar(255)     | [genus](https://dwc.tdwg.org/terms/#dwc:genus)                                       |                                              |
+| specificEpithet          | varchar(255)     | [specificEpithet](https://dwc.tdwg.org/terms/#dwc:specificEpithet)                   |                                              |
+| taxonRank                | varchar(32)      | [taxonRank](https://dwc.tdwg.org/terms/#dwc:taxonRank)                               |                                              |
+| infraspecificEpithet     | varchar(255)     | [infraspecificEpithet](https://dwc.tdwg.org/terms/#dwc:infraspecificEpithet)         |                                              |
+| scientificNameAuthorship | varchar(255)     | [scientificNameAuthorship](https://dwc.tdwg.org/terms/#dwc:scientificNameAuthorship) |                                              |
+| taxonRemarks             | text             | [taxonRemarks](https://dwc.tdwg.org/terms/#dwc:taxonRemarks)                         |                                              |
+| identifiedBy             | varchar(255)     | [identifiedBy](https://dwc.tdwg.org/terms/#dwc:identifiedBy)                         |                                              |
+| dateIdentified           | varchar(45)      | [dateIdentified](https://dwc.tdwg.org/terms/#dwc:dateIdentified)                     |                                              |
+| identificationReferences | text             | [identificationReferences](https://dwc.tdwg.org/terms/#dwc:identificationReferences) |                                              |
+| identificationRemarks    | text             | [identificationRemarks](https://dwc.tdwg.org/terms/#dwc:identificationRemarks)       |                                              |
+| identificationQualifier  | varchar(255)     | [identificationQualifier](https://dwc.tdwg.org/terms/#dwc:identificationQualifier)   |                                              |
+|  |
 
 ## Determinations table
 
