@@ -8,8 +8,8 @@ Taxonomic information is stored in a few different tables in Symbiota. In the **
 | ------------------------ | ---------------- | ------------------------------------------------------------------------------------ | -------------------------------------------- |
 | family                   | varchar(255)     | [family](https://dwc.tdwg.org/terms/#dwc:family)                                     |                                              |
 | scientificName           | varchar(255)     | [scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName)                     |                                              |
-| sciname                  | varchar(255)     | [sciname]()                                                                          | full scientific name, with or without author |
-| tidinterpreted           | int(10) unsigned | [tidinterpreted]()                                                                   | internal id for accepted taxon               |
+| sciname                  | varchar(255)     |                                                                                      | full scientific name, with or without author |
+| tidinterpreted           | int(10) unsigned |                                                                                      | internal id for accepted taxon               |
 | genus                    | varchar(255)     | [genus](https://dwc.tdwg.org/terms/#dwc:genus)                                       |                                              |
 | specificEpithet          | varchar(255)     | [specificEpithet](https://dwc.tdwg.org/terms/#dwc:specificEpithet)                   |                                              |
 | taxonRank                | varchar(32)      | [taxonRank](https://dwc.tdwg.org/terms/#dwc:taxonRank)                               |                                              |
@@ -21,7 +21,6 @@ Taxonomic information is stored in a few different tables in Symbiota. In the **
 | identificationReferences | text             | [identificationReferences](https://dwc.tdwg.org/terms/#dwc:identificationReferences) |                                              |
 | identificationRemarks    | text             | [identificationRemarks](https://dwc.tdwg.org/terms/#dwc:identificationRemarks)       |                                              |
 | identificationQualifier  | varchar(255)     | [identificationQualifier](https://dwc.tdwg.org/terms/#dwc:identificationQualifier)   |                                              |
-|  |
 
 ## Determinations table
 
