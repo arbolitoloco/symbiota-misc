@@ -1,6 +1,6 @@
 # Taxonomy in Symbiota database
 
-Taxonomic information is stored in a few different tables in Symbiota. In the **occurrence** table can be stored the accepted determination information and remarks can be. The **determinations** table keeps track of the determination history of occurrences. Finally, there are tables that keep track of the taxonomic names, authorship, references and hierarchy. The fields below are only partial descriptions of each table, limited to those referring to taxonomic information.
+Taxonomic information is stored in a few different tables in Symbiota. In the **occurrence** table both the accepted determination information and taxonomic remarks can be stored. The **determinations** table keeps track of the determination history of occurrences. Finally, there are tables that keep track of the taxonomic names, authorship, references and hierarchy. The fields below are only partial descriptions of each table, limited to those referring to taxonomic information.
 
 ## Occurrence table
 
